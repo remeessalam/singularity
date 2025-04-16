@@ -1,13 +1,13 @@
 import React from "react";
-import img1 from "../../assets/images/services-details/blockchain1.jpg";
-import img2 from "../../assets/images/services-details/blockchain2.jpeg";
+import img1 from "../../assets/images/services-details/uiux1.jpg";
+import img2 from "../../assets/images/services-details/uiux2.png";
 import { Link } from "react-router-dom";
 import { services } from "../../data/constant";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
 const UIUXDesign = () => {
-  const prev = services[2];
-  const next = services[4];
+  const prev = services[1];
+  const next = services[3];
   return (
     <div className="flex flex-col gap-10">
       <img

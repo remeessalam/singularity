@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../assets/images/services-details/web-development1.jpeg";
-import img2 from "../../assets/images/services-details/web-development2.jpg";
+import img1 from "../../assets/images/services-details/web-development1.jpg";
+import img2 from "../../assets/images/services-details/web-development2.png";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { services } from "../../data/constant";
@@ -32,8 +32,8 @@ const WebDevelopment = () => {
           Understanding Our Approach to Web Development
         </h2>
         <p data-aos="fade-up" className="description">
-          At AI Company, our web development services encompass both front-end and
-          back-end development, ensuring a comprehensive approach to each
+          At AI Company, our web development services encompass both front-end
+          and back-end development, ensuring a comprehensive approach to each
           project. Our front-end team specializes in creating visually stunning
           and user-friendly interfaces. Utilizing technologies such as HTML,
           CSS, and JavaScript, we design responsive layouts that adapt

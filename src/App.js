@@ -27,9 +27,7 @@ const AppDevelopment = React.lazy(() =>
 const WebDevelopment = React.lazy(() =>
   import("./pages/Website/WebDevelopment")
 );
-const AIAndMLDevelopment = React.lazy(() =>
-  import("./pages/Website/AIAndMLDevelopment")
-);
+const AIDevelopment = React.lazy(() => import("./pages/Website/AIDevelopment"));
 const GameDevelopment = React.lazy(() =>
   import("./pages/Website/GameDevelopment")
 );
@@ -76,17 +74,14 @@ function App() {
             <Route path="/services" element={<ServicePageLayout />}>
               <Route path="web-development" element={<WebDevelopment />} />
               <Route path="app-development" element={<AppDevelopment />} />
-              <Route
-                path="ai-ml-development"
-                element={<AIAndMLDevelopment />}
-              />
+              <Route path="ai-development" element={<AIDevelopment />} />
               <Route
                 path="cloud-computing-services"
                 element={<CloudComputing />}
               />
 
               <Route path="ui-ux-design" element={<UIUXDesign />} />
-              <Route path="vr-ar-development" element={<GameDevelopment />} />
+              <Route path="game-development" element={<GameDevelopment />} />
             </Route>
 
             {/* Landing Pages */}
