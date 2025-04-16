@@ -17,14 +17,14 @@ const WorkFlow = ({ page }) => {
     workflow = generalDevelopmentWorkflow;
   }
   return (
-    <div className="min-h-screen flex justify-center relative">
+    <div className=" flex justify-center relative">
       <div className="blurred-blue left-[-10%] bottom-[-10%]"></div>
       <div
         data-aos="fade-up"
         className="wrapper flex flex-col items-center gap-5 z-10 py-10"
       >
         <div className="flex items-center gap-3">
-          <img src={line} alt="line" className="w-[3rem]" />
+          <img src={line} alt="line" className="w-[3rem] brightness-0" />
           <h6 className="font-medium text-secondary">
             How We Build Your Success
           </h6>

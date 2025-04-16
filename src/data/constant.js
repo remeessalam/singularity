@@ -300,43 +300,43 @@ export const generalDevelopmentWorkflow = [
 export const testimonials = [
   {
     id: 1,
-    name: "John Peterson",
+    name: "Sarah M.",
     img: require("../assets/images/testimonials/review-p1.png"),
-    designation: "CEO of TechNext Solutions",
+    designation: "Marketing Director, XYZ Corp.",
     review:
-      "AI Company transformed the way we handle our data analytics. Their AI and machine learning solutions have not only improved our efficiency but also provided us with deep insights that we never had before. Their team is professional, responsive, and innovative.",
+      "We couldn’t be happier with the website Singularity Designs built for us. Their team was focused on creating a user-friendly, fast, and visually appealing website. It perfectly aligns with our brand and has helped increase conversions.",
   },
   {
     id: 2,
-    name: "Samantha Green",
+    name: "Emily R.",
     img: require("../assets/images/testimonials/review-p2.png"),
-    designation: "CTO of FinServ Global",
+    designation: "Operations Manager, ShopEasy",
     review:
-      "The blockchain solutions developed by AI Company have been a game-changer for our financial services. The implementation was seamless, and we’ve noticed enhanced security and transparency in our transactions. Highly recommend them for any blockchain needs!",
+      "We partnered with Singularity Designs to develop a mobile app for our retail business, and the results have been amazing. The app has enhanced our customer experience and helped boost engagement.",
   },
   {
     id: 3,
-    name: "Mark Davis",
+    name: "Michael D.",
     img: require("../assets/images/testimonials/review-p3.png"),
-    designation: "COO of E-Commerce Hub",
+    designation: "Product Manager, TechWorld",
     review:
-      "We partnered with AI Company for custom web and mobile app development, and they exceeded our expectations. Their attention to detail, creativity, and commitment to delivering on time was remarkable. The app is user-friendly and has significantly improved our customer engagement.",
+      "The user experience design provided by Singularity Designs has truly elevated our product. They created a design that’s not only beautiful but incredibly intuitive, leading to higher retention and engagement rates.",
   },
   {
     id: 4,
-    name: "Lisa Wong",
+    name: "Daniel T.",
     img: require("../assets/images/testimonials/review-p4.png"),
-    designation: "IT Director at Global Enterprises",
+    designation: "Game Developer, Fantasy Labs",
     review:
-      "The cybersecurity solutions provided by AI Company have given us peace of mind. They thoroughly assessed our infrastructure and implemented advanced threat detection and encryption technologies that protect our sensitive data. Their expertise is second to none!",
+      "We hired Singularity Designs to help us develop a cross-platform game. They delivered a high-quality product that’s fun and engaging. The game’s performance across all platforms has been excellent.",
   },
   {
     id: 5,
-    name: "David Thompson",
+    name: "Chris B.",
     img: require("../assets/images/testimonials/review-p5.png"),
-    designation: "HR Director at HealthCare Innovators",
+    designation: "IT Director, Global Logistics Co.",
     review:
-      "Our collaboration with AI Company on VR development has opened new doors for our training programs. Their VR simulations are incredibly realistic and have helped us provide more effective and engaging training sessions for our employees.",
+      "Moving to the cloud seemed complex, but Singularity Designs made the transition smooth. They helped us migrate all of our data and applications securely and efficiently, boosting our team's productivity.",
   },
 ];
 

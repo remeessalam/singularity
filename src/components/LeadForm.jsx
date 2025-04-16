@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import img from "../assets/images/contact.webp";
+import img from "../assets/images/contact.jpg";
 import { useForm } from "react-hook-form";
 import { companyDetails } from "../data/constant";
 import toast from "react-hot-toast";

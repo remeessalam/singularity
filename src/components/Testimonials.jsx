@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import testiImg from "../assets/images/testimonials/testimonials-bg.png";
+import testiImg from "../assets/images/testimonials/testimonials-bg.jpg";
 import line from "../assets/images/line.png";
 import users from "../assets/images/users-grp.png";
 import { testimonials } from "../data/constant";
@@ -24,24 +24,30 @@ const Testimonials = () => {
   return (
     <div
       id="reviews"
-      className="min-h-[70vh] py-[5rem] w-full bg-cover bg-no-repeat bg-bottom flex items-center z-10"
+      className="relative min-h-[70vh] py-[5rem] w-full bg-cover bg-no-repeat bg-bottom flex items-center z-10"
       style={{ backgroundImage: `url(${testiImg})` }}
     >
+      <div className="absolute w-full h-full bg-black/50 " />
       <div className="wrapper grid lg:grid-cols-2 gap-10 w-full">
         <div
           data-aos="fade-right"
-          className="flex flex-col items-center lg:items-start w-full"
+          className="flex flex-col items-center lg:items-start w-full text-white"
         >
           <div className="flex items-center gap-3 mb-5">
-            <img src={line} alt="line" className="w-[3rem]" />
-            <h6 className="font-medium text-secondary">Testimonials</h6>
+            <img
+              src={line}
+              alt="line"
+              className="w-[3rem] brightness-200 saturate-0"
+            />
+            <h6 className="font-medium text-white">Testimonials</h6>
           </div>
           <h2 className="text-[2rem] md:text-4xl capitalize font-semibold mb-5 text-center lg:text-start lg:max-w-[30rem]">
             Clients Feedback Examples You
           </h2>
-          <p className="text-gray-600 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
-            At AI Company, we take pride in the success of our clients. Here's what
-            some of them have to say about their experience working with us:
+          <p className="text-gray-100 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
+            At AI Company, we take pride in the success of our clients. Here's
+            what some of them have to say about their experience working with
+            us:
           </p>
           <img
             width="150"

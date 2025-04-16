@@ -13,7 +13,7 @@ import {
   services,
 } from "../../data/constant";
 import aboutImg from "../../assets/images/home-aboutus.webp";
-import whoWeAre from "../../assets/images/who-we-are.webp";
+import whoWeAre from "../../assets/images/who-we-are.jpg";
 import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import { Link } from "react-router-dom";
 import WorkFlow from "../../components/WorkFlow";
@@ -177,7 +177,7 @@ const Home = () => {
                 <LazyLoadImage
                   src={line}
                   alt="Decorative line"
-                  className="w-[3rem]"
+                  className="w-[3rem] brightness-0"
                 />
                 <h2 className="font-medium text-secondary">About Company</h2>
               </div>
@@ -187,7 +187,7 @@ const Home = () => {
                     src={whoWeAre}
                     width="500"
                     height="400"
-                    alt="AI Company company overview"
+                    alt="Singularity Designs company overview"
                     className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                   />
                   <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-primary/70 sm:bg-primary p-5 rounded-lg">
@@ -196,20 +196,23 @@ const Home = () => {
                       Years of Experience
                     </p>
                     <p className="pl-5 border-l-2 border-white text-md mt-3 text-white">
-                      The trusted choice for your software development solutions
+                      Delivering cutting-edge digital solutions for businesses
+                      worldwide
                     </p>
                   </div>
                 </div>
                 <div data-aos="fade-right" className="flex flex-col gap-5">
                   <h2 className="heading-2">
-                    Our Vision: Empowering Global Businesses with Intelligent
-                    Technology
+                    Building Digital Futures Through Innovation and
+                    Collaboration
                   </h2>
                   <p>
-                    At AI Company, we are committed to delivering innovative AI,
-                    Machine Learning, and Blockchain solutions that help
-                    businesses adapt and excel in an increasingly complex and
-                    competitive marketplace.
+                    At Singularity Designs, we believe technology should empower
+                    businesses and make life easier. We specialize in delivering
+                    innovative, tailor-made solutions across web development,
+                    app development, UI/UX, game creation, cloud integration,
+                    and AI-powered systems. Our team is passionate about turning
+                    big ideas into impactful digital experiences.
                   </p>
                   <Link to="/about-us" className="primary-btn mt-7 w-fit">
                     Know More About Us

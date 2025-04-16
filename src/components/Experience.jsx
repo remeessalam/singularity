@@ -1,5 +1,5 @@
 import React from "react";
-import expImg from "../assets/images/experience.webp";
+import expImg from "../assets/images/experience.jpg";
 import line from "../assets/images/line.png";
 import projectsImg from "../assets/images/icons/projects.png";
 import clientsImg from "../assets/images/icons/clients.png";
@@ -21,7 +21,7 @@ const Experience = () => {
         className="px-6 flex flex-col lg:pl-5 w-full z-10"
       >
         <div className="flex items-center gap-3 mb-5">
-          <img src={line} alt="line" className="w-[3rem]" />
+          <img src={line} alt="line" className="w-[3rem] brightness-0" />
           <h6 className="font-medium text-secondary">Work Experience</h6>
         </div>
         <h2 className="text-[2rem] md:text-4xl capitalize font-semibold mb-5">
@@ -35,12 +35,12 @@ const Experience = () => {
           alt="experience"
           className="w-full h-[50vh] block lg:hidden object-cover object-right z-10"
         />
-        <div className="z-10 bg-[#010C2A] p-5 grid md:grid-cols-3 gap-5 lg:w-[70vw] lg:-translate-x-[30vw]">
+        <div className="z-10 bg-primary p-5 grid md:grid-cols-3 gap-5 lg:w-[70vw] lg:-translate-x-[30vw]">
           <div className="flex flex-col gap-2 text-white items-start md:border-r-2 border-white/40 p-5">
             <img
               src={projectsImg}
               alt="projects-icon"
-              className="h-[3rem] object-contain"
+              className="h-[3rem] object-contain saturate-0"
             />
             <h2 className="text-4xl font-bold">50+</h2>
             <p className="border-l-2 border-[#00CDFF] pl-3">
@@ -51,7 +51,7 @@ const Experience = () => {
             <img
               src={clientsImg}
               alt="projects-icon"
-              className="h-[3rem] object-contain"
+              className="h-[3rem] object-contain saturate-0"
             />
             <h2 className="text-4xl font-bold">100%</h2>
             <p className="border-l-2 border-[#00CDFF] pl-3">
@@ -62,7 +62,7 @@ const Experience = () => {
             <img
               src={awardsImg}
               alt="projects-icon"
-              className="h-[3rem] object-contain"
+              className="h-[3rem] object-contain saturate-0"
             />
             <h2 className="text-4xl font-bold">2+</h2>
             <p className="border-l-2 border-[#00CDFF] pl-3">Awards</p>
