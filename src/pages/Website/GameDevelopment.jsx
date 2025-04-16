@@ -24,9 +24,9 @@ const GameDevelopment = () => {
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, game development has become
           an essential component for businesses seeking to engage audiences,
-          showcase innovation, and drive growth. At AI Company, we offer
-          comprehensive game development services designed to bring creative
-          ideas to life and deliver immersive experiences. Our focus on
+          showcase innovation, and drive growth. At Singularity Designs, we
+          offer comprehensive game development services designed to bring
+          creative ideas to life and deliver immersive experiences. Our focus on
           delivering tailored solutions ensures that clients can captivate their
           users while optimizing performance across platforms.
         </p>
@@ -43,7 +43,7 @@ const GameDevelopment = () => {
           without a hefty investment.
           <br />
           <br />
-          At AI Company, we offer a range of game development services,
+          At Singularity Designs, we offer a range of game development services,
           including mobile games, web-based games, and VR/AR game experiences.
           Our mobile solutions provide businesses with customized,
           high-performance games that reach wide audiences. With web games, we
@@ -92,12 +92,12 @@ const GameDevelopment = () => {
         </div>
       </div>
       <p>
-        As technology continues to evolve, AI Company remains committed to
-        exploring new advancements in game development. We stay informed about
-        emerging trends and innovations, ensuring that our clients benefit from
-        the latest capabilities. Our dedication to continuous improvement drives
-        us to refine our gaming solutions, providing clients with cutting-edge
-        experiences that elevate their brand impact.
+        As technology continues to evolve, Singularity Designs remains committed
+        to exploring new advancements in game development. We stay informed
+        about emerging trends and innovations, ensuring that our clients benefit
+        from the latest capabilities. Our dedication to continuous improvement
+        drives us to refine our gaming solutions, providing clients with
+        cutting-edge experiences that elevate their brand impact.
       </p>
       <hr />
       <div className="flex w-full justify-between gap-6">

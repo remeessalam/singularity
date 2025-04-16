@@ -25,7 +25,7 @@ const Development = ({ page }) => {
           <div data-aos="fade-left" className="flex flex-col gap-4">
             <h2 className="text-[2rem] md:text-4xl leading-tight font-semibold">
               {/* We provide the Best IT solution services */}
-              AI Company – Crafting Exceptional Digital Experiences
+              Singularity Designs – Crafting Exceptional Digital Experiences
             </h2>
             <p className="">
               {page === "web-development" &&
@@ -33,7 +33,7 @@ const Development = ({ page }) => {
               {page === "app-development" &&
                 "Craft innovative mobile apps tailored to your business needs, with designs that captivate users and deliver results. Our apps are meticulously developed to ensure high quality, seamless functionality, and exceptional user experiences across all platforms."}
               {/* Unlock the full potential of your online presence with our
-              state-of-the-art web development services. At AI Company, we combine
+              state-of-the-art web development services. At Singularity Designs, we combine
               creativity, innovation, and the latest technologies to build
               custom web solutions that captivate users, boost engagement, and
               drive business growth. Whether you need a dynamic website, an

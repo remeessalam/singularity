@@ -36,8 +36,9 @@ const UIUXDesign = () => {
           We prioritize users in every step of our design process. Whether it’s
           conducting in-depth research, building wireframes, or testing
           usability, our goal is to create designs that serve real people with
-          real needs. At AI Company, we help businesses translate their vision
-          into products that are not only functional but a delight to use.
+          real needs. At Singularity Designs, we help businesses translate their
+          vision into products that are not only functional but a delight to
+          use.
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-7">
@@ -81,11 +82,11 @@ const UIUXDesign = () => {
         </div>
       </div>
       <p>
-        At AI Company, we believe UI/UX design goes beyond aesthetics. We build
-        experiences that resonate with your audience by combining creativity
-        with strategic thinking. From user research to final delivery, our team
-        ensures every element contributes to a more engaging, user-friendly
-        digital product.
+        At Singularity Designs, we believe UI/UX design goes beyond aesthetics.
+        We build experiences that resonate with your audience by combining
+        creativity with strategic thinking. From user research to final
+        delivery, our team ensures every element contributes to a more engaging,
+        user-friendly digital product.
       </p>
       <hr />
       <div className="flex w-full justify-between gap-6">

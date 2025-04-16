@@ -24,11 +24,11 @@ const CloudComputing = () => {
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, cloud computing has become an
           essential component for businesses seeking to enhance flexibility,
-          scalability, and efficiency. At AI Company, we offer comprehensive
-          cloud computing services designed to empower organizations to leverage
-          the full potential of cloud technology. Our focus on delivering
-          tailored solutions ensures that businesses can adapt to changing
-          demands while optimizing their operations.
+          scalability, and efficiency. At Singularity Designs, we offer
+          comprehensive cloud computing services designed to empower
+          organizations to leverage the full potential of cloud technology. Our
+          focus on delivering tailored solutions ensures that businesses can
+          adapt to changing demands while optimizing their operations.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Elevating Business Potential
@@ -44,7 +44,7 @@ const CloudComputing = () => {
           can access advanced technologies without a hefty upfront investment.
           <br />
           <br />
-          At AI Company, we offer a range of cloud services, including
+          At Singularity Designs, we offer a range of cloud services, including
           Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and
           Software as a Service (SaaS). Our IaaS solutions provide businesses
           with virtualized computing resources, enabling them to run
@@ -95,8 +95,8 @@ const CloudComputing = () => {
         </div>
       </div>
       <p>
-        As technology continues to evolve, AI Company remains committed to
-        exploring new advancements in cloud computing. We stay informed about
+        As technology continues to evolve, Singularity Designs remains committed
+        to exploring new advancements in cloud computing. We stay informed about
         emerging trends and innovations, ensuring that our clients benefit from
         the latest capabilities. Our dedication to continuous improvement drives
         us to refine our cloud services, providing clients with cutting-edge

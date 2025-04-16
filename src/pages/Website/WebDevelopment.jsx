@@ -21,8 +21,8 @@ const WebDevelopment = () => {
           Web Development
         </h2>
         <p data-aos="fade-up" className="description">
-          At AI Company, we recognize that web development is more than just
-          building websites; it’s about creating dynamic, interactive
+          At Singularity Designs, we recognize that web development is more than
+          just building websites; it’s about creating dynamic, interactive
           experiences that empower businesses and engage users. As a leader in
           technology solutions, we leverage cutting-edge practices in web
           development to deliver exceptional results for our clients, helping
@@ -32,11 +32,11 @@ const WebDevelopment = () => {
           Understanding Our Approach to Web Development
         </h2>
         <p data-aos="fade-up" className="description">
-          At AI Company, our web development services encompass both front-end
-          and back-end development, ensuring a comprehensive approach to each
-          project. Our front-end team specializes in creating visually stunning
-          and user-friendly interfaces. Utilizing technologies such as HTML,
-          CSS, and JavaScript, we design responsive layouts that adapt
+          At Singularity Designs, our web development services encompass both
+          front-end and back-end development, ensuring a comprehensive approach
+          to each project. Our front-end team specializes in creating visually
+          stunning and user-friendly interfaces. Utilizing technologies such as
+          HTML, CSS, and JavaScript, we design responsive layouts that adapt
           seamlessly across devices. This focus on user experience is essential
           in today’s fast-paced digital environment, where first impressions can
           significantly impact customer engagement.
@@ -105,8 +105,8 @@ const WebDevelopment = () => {
         </div>
       </div>
       <p>
-        At AI Company, we envision a future where technology continues to break
-        barriers and create limitless possibilities for businesses. Our
+        At Singularity Designs, we envision a future where technology continues
+        to break barriers and create limitless possibilities for businesses. Our
         commitment to innovation drives us to explore new technologies and
         methodologies that will shape the next generation of web solutions. With
         a passionate team dedicated to excellence, we aim to deliver tailored

@@ -23,11 +23,11 @@ const VRAndAR = () => {
         <p data-aos="fade-up" className="description">
           In recent years, virtual reality (VR) and augmented reality (AR) have
           emerged as groundbreaking technologies that redefine how we interact
-          with digital content and the world around us. At AI Company, we are
-          dedicated to harnessing the potential of VR and AR to create immersive
-          experiences that not only engage users but also transform industries.
-          Our expertise in developing innovative VR and AR solutions positions
-          us at the forefront of this exciting technological frontier.
+          with digital content and the world around us. At Singularity Designs,
+          we are dedicated to harnessing the potential of VR and AR to create
+          immersive experiences that not only engage users but also transform
+          industries. Our expertise in developing innovative VR and AR solutions
+          positions us at the forefront of this exciting technological frontier.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Shaping Immersive Experiences
@@ -35,7 +35,7 @@ const VRAndAR = () => {
         <p data-aos="fade-up" className="description">
           The applications of VR and AR are vast and varied, spanning sectors
           such as healthcare, education, real estate, and entertainment. At AI
-         Company, we understand that each industry has unique requirements and
+          Company, we understand that each industry has unique requirements and
           challenges. Therefore, we take a tailored approach to our VR and AR
           development projects, ensuring that our solutions are designed to meet
           the specific needs of our clients. Whether it’s creating realistic
@@ -93,8 +93,8 @@ const VRAndAR = () => {
         </div>
       </div>
       <p>
-        At AI Company, we prioritize user experience in all our VR and AR
-        solutions. Our team employs cutting-edge design techniques and
+        At Singularity Designs, we prioritize user experience in all our VR and
+        AR solutions. Our team employs cutting-edge design techniques and
         technologies to create intuitive interfaces that enhance interactivity
         and engagement. By focusing on usability, we ensure that our
         applications are not only visually stunning but also easy to navigate,

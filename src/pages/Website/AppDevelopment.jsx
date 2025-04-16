@@ -24,12 +24,12 @@ const AppDevelopment = () => {
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, mobile applications have
           become essential tools for businesses aiming to engage their audiences
-          and enhance operational efficiency. At AI Company, we understand that
-          app development is not merely about creating software; it’s about
-          crafting user-centric experiences that resonate with users and drive
-          business growth. Our expertise in both native and cross-platform
-          development enables us to deliver high-quality applications tailored
-          to meet the unique needs of our clients.
+          and enhance operational efficiency. At Singularity Designs, we
+          understand that app development is not merely about creating software;
+          it’s about crafting user-centric experiences that resonate with users
+          and drive business growth. Our expertise in both native and
+          cross-platform development enables us to deliver high-quality
+          applications tailored to meet the unique needs of our clients.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Understanding Our Approach to App Development
@@ -101,14 +101,14 @@ const AppDevelopment = () => {
         </div>
       </div>
       <p>
-        At AI Company, we are committed to staying ahead of technological
-        advancements to provide our clients with cutting-edge app solutions. We
-        embrace emerging trends that enhance both functionality and user
-        experience. Our team prioritizes user interface (UI) and user experience
-        (UX) design, ensuring that our applications are intuitive and easy to
-        navigate. This focus on the end-user experience allows us to create
-        applications that not only look great but also deliver exceptional
-        usability.
+        At Singularity Designs, we are committed to staying ahead of
+        technological advancements to provide our clients with cutting-edge app
+        solutions. We embrace emerging trends that enhance both functionality
+        and user experience. Our team prioritizes user interface (UI) and user
+        experience (UX) design, ensuring that our applications are intuitive and
+        easy to navigate. This focus on the end-user experience allows us to
+        create applications that not only look great but also deliver
+        exceptional usability.
       </p>
       <hr />
       <div className="flex w-full justify-between gap-6">

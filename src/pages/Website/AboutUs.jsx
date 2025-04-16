@@ -212,9 +212,9 @@ const AboutUs = () => {
       <section className="wrapper text-center">
         <h1 className="heading mb-6">Who We Are</h1>
         <p>
-          Founded with the mission to drive digital transformation, AI Company
-          specializes in providing cutting-edge AI, blockchain, and ML services
-          across a wide range of sectors including energy, healthcare,
+          Founded with the mission to drive digital transformation, Singularity
+          Designs specializes in providing cutting-edge AI, blockchain, and ML
+          services across a wide range of sectors including energy, healthcare,
           e-commerce, real estate, and more. Our solutions are tailored to the
           unique needs of each client, ensuring the perfect blend of innovation
           and practicality.
