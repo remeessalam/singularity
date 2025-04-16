@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/images/contact-page-banner.webp";
+import bannerImg from "../../assets/images/contact-page-banner.jpg";
 import { Link } from "react-router-dom";
 import Header from "../../components/Website/Header";
 import Footer from "../../components/Footer";
@@ -24,7 +24,7 @@ const ContactUs = () => {
           src={bannerImg}
           width="800"
           height="600"
-          className="absolute h-full w-full object-cover object-center z-0"
+          className="absolute h-full w-full object-cover object-left z-0"
           alt=""
         />
         <div className="absolute h-full w-full bg-black/20"></div>
@@ -45,7 +45,7 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 lg:gap-5">
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 flex flex-col gap-3">
             <div data-aos="fade-up" className="flex items-center gap-3">
-              <img src={line} alt="line" className="w-[3rem]" />
+              <img src={line} alt="line" className="w-[3rem] brightness-0" />
               <h6 className="font-medium text-secondary">Contact Us</h6>
             </div>
             <h2 data-aos="fade-up" className="heading-2 capitalize">

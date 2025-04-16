@@ -27,7 +27,7 @@ const Blogs = () => {
             <LazyLoadImage
               src={line}
               alt="Decorative line"
-              className="w-[3rem]"
+              className="w-[3rem] brightness-0"
             />
             <h2 className="font-medium text-secondary">Blogs</h2>
           </div>
@@ -75,10 +75,10 @@ export const BlogItem = ({ blog }) => {
         >
           {blog.title}
         </Link>
-          <div
-            dangerouslySetInnerHTML={{ __html: blog.html }}
-            className="text-[.9rem] leading-tight text-gray-700 line-clamp-4 text-ellipsis hyphen-auto"
-          ></div>
+        <div
+          dangerouslySetInnerHTML={{ __html: blog.html }}
+          className="text-[.9rem] leading-tight text-gray-700 line-clamp-4 text-ellipsis hyphen-auto"
+        ></div>
       </div>
       <div className="mt-6 w-full flex justify-center">
         <Link to={`/blogs/${blog.title}`} className="primary-btn w-full">

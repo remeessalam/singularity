@@ -70,7 +70,7 @@ const InquiryForm = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 lg:gap-5">
           <div className="flex flex-col gap-3">
             <div data-aos="fade-up" className="flex items-center gap-3">
-              <img src={line} alt="line" className="w-[3rem]" />
+              <img src={line} alt="line" className="w-[3rem] brightness-0" />
               <h6 className="font-medium text-secondary">
                 Book an Appointment
               </h6>
@@ -79,8 +79,8 @@ const InquiryForm = () => {
               Let’s Collaborate to Innovate
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              At AI Company, we’re dedicated to providing technology solutions that
-              transform businesses. Contact us today to discuss how our
+              At AI Company, we’re dedicated to providing technology solutions
+              that transform businesses. Contact us today to discuss how our
               expertise can support your business goals.
             </p>
           </div>

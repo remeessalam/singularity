@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Website/Header";
-import banner from "../../assets/images/about-us-page-banner.webp";
+import banner from "../../assets/images/about-us-page-banner.jpg";
 import line from "../../assets/images/line.png";
 import img1 from "../../assets/images/about-us-page-2.png";
 import img2 from "../../assets/images/about-us-page-3.png";
@@ -33,21 +33,22 @@ const AboutUs = () => {
         <div className="grid lg:grid-cols-2 lg:items-start gap-10">
           <div>
             <div data-aos="fade-up" className="flex items-center gap-3">
-              <img src={line} alt="line" className="w-[3rem]" />
+              <img src={line} alt="line" className="w-[3rem] brightness-0" />
               <h6 className="font-medium text-secondary capitalize">
                 Know about us
               </h6>
             </div>
             <h2 className="heading capitalize mt-5">
-              The world’s IT networking company.
+              Empowering Digital Innovation Globally
             </h2>
             <p className="mt-6">
-              At AI Company, we are passionate about pushing the boundaries of
-              technology to deliver world-class AI, blockchain, and machine
-              learning solutions to businesses around the globe. Our team is a
-              group of forward-thinking developers, data scientists, and
-              innovators committed to transforming industries with custom
-              AI-driven products and services.
+              At Singularity Designs, we turn visionary ideas into reality.
+              We’re a team of passionate developers, designers, and
+              technologists delivering cutting-edge solutions in web and app
+              development, UI/UX design, game development, cloud computing, and
+              AI. From startups to enterprises, we craft tailored digital
+              experiences that transform businesses, enhance user engagement,
+              and drive measurable results in a rapidly evolving digital world.
             </p>
           </div>
           <div className="h-full w-full">
@@ -77,7 +78,7 @@ const AboutUs = () => {
           className="px-6 flex flex-col items-center lg:items-start lg:pl-5 w-full z-10"
         >
           <div className="flex items-center gap-3 mb-5">
-            <img src={line} alt="line" className="w-[3rem]" />
+            <img src={line} alt="line" className="w-[3rem] brightness-0" />
             <h6 className="font-medium text-secondary">Work Experience</h6>
           </div>
           <h2 className="text-[2rem] md:text-4xl capitalize text-center lg:text-start font-semibold mb-5">
@@ -91,16 +92,16 @@ const AboutUs = () => {
             alt="experience"
             className="w-full max-w-[20rem] block lg:hidden object-contain mx-auto object-right z-10"
           />
-          <div className="z-10 bg-[#010C2A] w-full p-5 grid md:grid-cols-3 gap-5 lg:w-[70vw] lg:-translate-x-[30vw]">
+          <div className="z-10 bg-primary w-full p-5 grid md:grid-cols-3 gap-5 lg:w-[70vw] lg:-translate-x-[30vw]">
             <div className="flex flex-col gap-2 text-white items-start md:border-r-2 border-white/40 p-5">
               <img
                 loading="lazy"
                 src={projectsImg}
                 alt="projects-icon"
-                className="h-[2rem] obj2ct-c -mb-4ontain"
+                className="h-[2rem] grayscale"
               />
               <h2 className="text-4xl font-bold">50+</h2>
-              <p className="border-l-2 border-[#00CDFF] pl-3">
+              <p className="border-l-2 border-primary pl-3">
                 Projects Completed
               </p>
             </div>
@@ -109,10 +110,10 @@ const AboutUs = () => {
                 loading="lazy"
                 src={clientsImg}
                 alt="projects-icon"
-                className="h-[2rem] obj2ct-c -mb-4ontain"
+                className="h-[2rem] grayscale"
               />
               <h2 className="text-4xl font-bold">100%</h2>
-              <p className="border-l-2 border-[#00CDFF] pl-3">
+              <p className="border-l-2 border-primary pl-3">
                 Satisfied clients
               </p>
             </div>
@@ -121,10 +122,10 @@ const AboutUs = () => {
                 loading="lazy"
                 src={awardsImg}
                 alt="projects-icon"
-                className="h-[2rem] obj2ct-c -mb-4ontain"
+                className="h-[2rem] grayscale"
               />
               <h2 className="text-4xl font-bold">2+</h2>
-              <p className="border-l-2 border-[#00CDFF] pl-3">Awards</p>
+              <p className="border-l-2 border-primary pl-3">Awards</p>
             </div>
           </div>
         </div>
@@ -145,7 +146,7 @@ const AboutUs = () => {
         />
         <div className="wrapper flex flex-col items-center">
           <div className="flex items-center gap-3 mb-5">
-            <img src={line} alt="line" className="w-[3rem]" />
+            <img src={line} alt="line" className="w-[3rem] brightness-0" />
             <h6 className="font-medium text-secondary">Work Process</h6>
           </div>
           <h2 className="heading mt-2">Our Work Process</h2>
@@ -154,7 +155,7 @@ const AboutUs = () => {
               <img
                 loading="lazy"
                 src={process1}
-                className="w-[3rem] sm:w-[5rem] object-contain"
+                className="w-[3rem] sm:w-[5rem] object-contain grayscale"
                 alt="process"
                 width="100"
                 height="100"
@@ -174,7 +175,7 @@ const AboutUs = () => {
               <img
                 loading="lazy"
                 src={process2}
-                className="w-[3rem] sm:w-[5rem] object-contain"
+                className="w-[3rem] sm:w-[5rem] object-contain grayscale"
                 alt="process"
                 width="100"
                 height="100"
@@ -194,7 +195,7 @@ const AboutUs = () => {
               <img
                 loading="lazy"
                 src={process3}
-                className="w-[3rem] sm:w-[5rem] object-contain"
+                className="w-[3rem] sm:w-[5rem] object-contain grayscale"
                 alt="process"
                 width="100"
                 height="100"
