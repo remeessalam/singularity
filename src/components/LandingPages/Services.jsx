@@ -14,7 +14,7 @@ const Services = ({ page }) => {
       <div className="blurred-blue left-[-10%] top-[-10%]"></div>
       <div className="wrapper py-10 flex flex-col items-center gap-5 z-10">
         <div data-aos="fade-up" className="flex items-center gap-3">
-          <img src={line} alt="line" className="w-[3rem]" />
+          <img src={line} alt="line" className="w-[3rem] brightness-0" />
           <h6 className="font-medium text-secondary">
             {/* Popular Services */}
             {page === "web-development" && "Web Development Services"}
@@ -49,7 +49,8 @@ const Services = ({ page }) => {
               >
                 <div className="w-[4rem] h-[4rem] p-3 rounded-full bg-primary/10 flex items-center justify-center">
                   <img
-loading="lazy"                    src={item.icon}
+                    loading="lazy"
+                    src={item.icon}
                     alt="icon"
                     className="w-[3rem] grayscale"
                   />
@@ -67,7 +68,8 @@ loading="lazy"                    src={item.icon}
               >
                 <div className="w-[4rem] h-[4rem] p-3 rounded-full bg-primary/10 flex items-center justify-center">
                   <img
-loading="lazy"                    src={item.icon}
+                    loading="lazy"
+                    src={item.icon}
                     alt="icon"
                     className="w-[3rem] grayscale"
                   />

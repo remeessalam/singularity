@@ -54,8 +54,8 @@ export const services = [
 // details
 export const companyDetails = {
   logo: logoImg,
-  phone: "+00000000",
-  location: "ABC Street, City, Country",
+  phone: "+91-9711005437",
+  location: "Flat no.86, Nagin Lake Appt, Paschim Vihar -110087",
   email: "abc@xyz.com",
 };
 

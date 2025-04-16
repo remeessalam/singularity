@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bannerImg from "../../assets/images/landingpages/banner-bg.webp";
+import bannerImg from "../../assets/images/landingpages/banner-bg.jpg";
 import { Link } from "react-router-dom";
 import robot from "../../assets/images/landingpages/ai-robot.png";
 import gsap from "gsap";
@@ -25,7 +25,7 @@ const Banner = ({ page }) => {
       className="min-h-screen w-full relative flex justify-center bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
-      <div className="wrapper pt-[10rem] pb-[5rem] flex flex-col-reverse lg:grid grid-cols-[60%_40%] items-center gap-5">
+      <div className="wrapper pt-[10rem] pb-[5rem] flex flex-col-reverse lg:grid grid-cols-[60%_40%] items-center gap-5 text-white">
         <div className="flex flex-col gap-4 items-start justify-center">
           <p
             data-aos="fade-right"
@@ -43,7 +43,7 @@ const Banner = ({ page }) => {
             {page === "app-development" &&
               "AI Company - Elevating Your Business with Cutting-Edge App Development"}
           </h1>
-          <p data-aos="fade-right" className="text-sm text-gray-500">
+          <p data-aos="fade-right" className="text-sm text-gray-100">
             {page === "web-development" &&
               "Unlock the full potential of your online presence with our state-of-the-art web development services. At AI Company, we combine creativity, innovation, and the latest technologies to build custom web solutions that captivate users, boost engagement, and drive business growth. Whether you need a dynamic website, an interactive platform, or a robust e-commerce solution, we deliver tailored digital experiences designed for the future."}
             {page === "app-development" &&
@@ -53,7 +53,7 @@ const Banner = ({ page }) => {
             Get Started
           </Link>
         </div>
-        <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
+        {/* <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
           <img
             loading="lazy"
             id="robot"
@@ -64,7 +64,7 @@ const Banner = ({ page }) => {
             height="400"
             class="h-[30vh] lg:h-[40vh] w-full object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

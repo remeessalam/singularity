@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo/logo1.png";
+import logo from "../../assets/images/logo/logo.gif";
 import { landingPageNavLinks } from "../../data/constant";
 import { Link as ReactScrollLink } from "react-scroll";
 import Drawer from "react-modern-drawer";
@@ -9,7 +9,7 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary">
+    <div className="fixed top-0 z-50 w-full bg-[#ececec] backdrop-blur-sm text-primary">
       <div className="flex wrapper items-center gap-8 justify-between">
         <ReactScrollLink
           to="banner"

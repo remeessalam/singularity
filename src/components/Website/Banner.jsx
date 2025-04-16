@@ -55,7 +55,7 @@ const Banner = () => {
             Get Started
           </Link>
         </div>
-        <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
+        {/* <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
           <img
             loading="lazy"
             id="robot"
@@ -69,7 +69,7 @@ const Banner = () => {
             height="400"
             class="h-[30vh] lg:h-[40vh] w-full object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
