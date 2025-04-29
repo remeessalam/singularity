@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo/logo.gif";
+import logo from "../../assets/images/logo/logo1.png";
 import { landingPageNavLinks } from "../../data/constant";
 import { Link as ReactScrollLink } from "react-scroll";
 import Drawer from "react-modern-drawer";

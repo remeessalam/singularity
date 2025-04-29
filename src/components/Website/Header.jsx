@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo/logo.gif";
+import logo from "../../assets/images/logo/logo1.png";
 import { Link, useLocation } from "react-router-dom";
 import Drawer from "react-modern-drawer";
 import { Divide as Hamburger } from "hamburger-react";

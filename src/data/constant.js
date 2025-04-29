@@ -78,7 +78,7 @@ export const companyDetails = {
   logo: logoImg,
   phone: "+91-9711005437",
   location: "Flat no.86, Nagin Lake Appt, Paschim Vihar -110087",
-  email: "abc@xyz.com",
+  email: "Sahil.Khosla@outlook.com",
 };
 
 export const landingPageNavLinks = [
